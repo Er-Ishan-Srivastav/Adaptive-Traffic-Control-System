@@ -1,0 +1,9 @@
+<routes>
+    <vType id="car" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="15"/>
+    
+    <route id="route_WE" edges="edge_west_to_A edge_A_to_B edge_B_to_east"/>
+    <route id="route_NS" edges="edge_north_to_A edge_A_to_south"/>
+
+    <flow id="flow_WE" type="car" route="route_WE" begin="0" end="1000" probability="1"/>
+    <flow id="flow_NS" type="car" route="route_NS" begin="0" end="1000" probability="0.5"/>
+</routes>

@@ -1,0 +1,8 @@
+<edges>
+    <edge id="edge_north_to_A" from="N" to="Intersection_A" numLanes="3" speed="13.89"/>
+    <edge id="edge_A_to_south" from="Intersection_A" to="S" numLanes="3" speed="13.89"/>
+    
+    <edge id="edge_west_to_A" from="W" to="Intersection_A" numLanes="3" speed="13.89"/>
+    <edge id="edge_A_to_B" from="Intersection_A" to="Intersection_B" numLanes="3" speed="13.89"/>
+    <edge id="edge_B_to_east" from="Intersection_B" to="E" numLanes="3" speed="13.89"/>
+</edges>
